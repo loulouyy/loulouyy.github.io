@@ -18,11 +18,17 @@ layout: page
 	// Prepare data
 	$('#galleria img').each(function(){
 		var src = $(this).attr('src'),
-			html = "";
+			html = "",
+			srcArray = src.split('/');
+			thumbSrc = "";
+		for (var i = 0; i < srcArray.length - 1; i++) {
+			thumbSrc += srcArray[i] + '/';
+		};
+		thumbSrc += "thumbs/" + srcArray[srcArray.length-1];
+
 		html += '<a href="'+ src + '">';
 		html += '	<img ';
-		html += '	  src="'+ src + '"';
-		html += '	  data-big="'+ src + '"';
+		html += '	  src="'+ thumbSrc + '"';
 		html += '	>';
 		html += '</a>';
 
