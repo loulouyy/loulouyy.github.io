@@ -2,8 +2,15 @@
 layout: page
 permalink: /projects/
 ---
-{% for post in site.posts %}
-   	<li>
-    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
+<div class="grid">
+	{% for post in site.posts %}
+	    <figure class="effect-bubba">
+	    	<img src="{{ post.coverimg | prepend: site.baseurl }}" alt="{{ post.title }}">
+		    <figcaption>
+		    	<h2>SAMPLE <span>PROJECT</span></h2>
+		    	<p>{{ post.desc }}</p>
+		    	<a href="{{ post.url }}">View more</a>
+		    </figcaption>	
+		</figure>
+	{% endfor %}
+</div>
