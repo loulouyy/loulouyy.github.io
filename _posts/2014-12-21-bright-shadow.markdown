@@ -1,6 +1,6 @@
 ---
 layout: photos-l
-title:  "BRIGHT SHADOW"
+title:  "Bright Shadow"
 desc: ""
 date:   2014-12-21 17:47:03
 categories: project

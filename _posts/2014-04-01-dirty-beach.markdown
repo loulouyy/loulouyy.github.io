@@ -1,6 +1,6 @@
 ---
 layout: photos-l
-title:  "DIRTY BEACH"
+title:  "Dirty Beach"
 desc: ""
 date:   2014-04-01 17:47:03
 categories: project
