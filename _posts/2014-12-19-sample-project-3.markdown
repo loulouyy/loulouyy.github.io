@@ -1,5 +1,5 @@
 ---
-layout: photos-s
+layout: photos-m
 title:  "SAMPLE-PROJECT-3"
 desc: "sample project"
 date:   2014-12-19 17:47:03
