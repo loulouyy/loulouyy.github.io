@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+---
+layout: empty
+---
 <style type="text/css"> 
 	body{margin: 0;}
 	.img-wrapper:after { content: ""; display: table; clear: both;}
@@ -7,29 +8,25 @@
 	.img-wrapper a{ display: block;}
 </style> 
 <script src="/js/jquery-2.1.1.min.js"></script>
-  <body>
 	<div class="img-wrapper">
 		<a href="/projects">
 			<img src="/images/t.jpg" alt="">
 		</a>
   	</div>
-	<script type="text/javascript">
-		$('body').width( $(window).width());
-		$('body').height( $(window).height());
+<script type="text/javascript">
+	$('body').width( $(window).width());
+	$('body').height( $(window).height());
 
-		var imgUrl = $('body img').attr('src'),
-			image = new Image();
+	var imgUrl = $('body img').attr('src'),
+		image = new Image();
 
-		image.src = imgUrl;
-		image.onload = function(){ 
-			$('.img-wrapper').css({
-				width : image.width,
-				height : image.height,
-				marginLeft: - image.width / 2,
-				marginTop: - image.height / 2,
-			}).fadeIn();
-		}
-
-	</script>
-  </body>
-</html>
+	image.src = imgUrl;
+	image.onload = function(){ 
+		$('.img-wrapper').css({
+			width : image.width,
+			height : image.height,
+			marginLeft: - image.width / 2,
+			marginTop: - image.height / 2,
+		}).fadeIn();
+	}
+</script>
