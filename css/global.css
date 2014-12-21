@@ -2,7 +2,9 @@
 .content:after { content: ""; display: table; clear: both;}
 .g-side { position: fixed; float: left; top: 200px; width: 200px; z-index: 1}
 .g-side .u-row { margin-bottom: 20px; padding: 0 10px;}
-.g-side li { padding-left: 5px}
+.g-side li { padding-left: 7px}
+.g-side span { display: none;}
+.g-side li:hover span{ display: inline;}
 .g-main { float: left; width: 100%;}
 .g-main .main { position: relative; margin-left: 200px; overflow: hidden}
 .post-header { margin-bottom: 20px;}

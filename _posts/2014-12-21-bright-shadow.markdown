@@ -1,0 +1,57 @@
+---
+layout: photos-l
+title:  "BRIGHT SHADOW"
+desc: ""
+date:   2014-12-21 17:47:03
+categories: project
+permalink: /brightshadow/
+coverimg: "/images/brightshadow/001.jpg"
+---
+
+![brightshadow]({{site.baseurl}}/images/brightshadow/001.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/002.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/003.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/004.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/005.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/006.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/007.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/008.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/009.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/010.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/011.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/012.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/013.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/014.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/015.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/016.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/017.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/018.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/019.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/020.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/021.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/022.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/023.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/024.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/025.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/026.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/027.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/028.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/030.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/031.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/032.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/033.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/034.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/035.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/037.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/038.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/039.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/040.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/041.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/043.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/044.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/045.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/046.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/047.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/048.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/049.jpg)
+![brightshadow]({{site.baseurl}}/images/brightshadow/050.jpg)

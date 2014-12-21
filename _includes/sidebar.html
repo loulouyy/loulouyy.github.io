@@ -1,6 +1,6 @@
 <div class="g-side">
 	<div class="hd u-row">
-		<a href="/"><b>SITENAME</b>YOURNAME</a>
+		<a href="/"><b>LOU</b> GAOXIANG</a>
 	</div>
 	<div class="bd u-row">
 		<a href="{{ "/projects" | prepend: site.baseurl }}" class="index">PROJECTS</a>
@@ -8,6 +8,7 @@
     		{% for post in site.posts %}
       		<li>
           		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          		<span>{{ post.date | date: "%Y" }}</span>
       		</li>
     		{% endfor %}
 		</ul>
