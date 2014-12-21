@@ -1,4 +1,4 @@
-.content { width: 1180px; margin: 0 auto; padding: 100px 0; position: relative; background: #fff;}
+.content { width: 1180px; margin: 0 auto; position: relative; background: #fff;}
 .content:after { content: ""; display: table; clear: both;}
 .g-side { position: fixed; float: left; top: 200px; width: 200px; z-index: 1}
 .g-side .u-row { margin-bottom: 20px; padding: 0 10px;}
