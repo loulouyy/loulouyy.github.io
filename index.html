@@ -1,4 +1,35 @@
----
-layout: page
----
-<img src="{{site.baseurl}}/images/0.jpg" alt="">
+<!DOCTYPE html>
+<html>
+<style type="text/css"> 
+	body{margin: 0;}
+	.img-wrapper:after { content: ""; display: table; clear: both;}
+	.img-wrapper{ display: none; position: absolute; left: 50%; top: 50%;}
+	.img-wrapper a{ display: block;}
+</style> 
+<script src="/js/jquery-2.1.1.min.js"></script>
+  <body>
+	<div class="img-wrapper">
+		<a href="/projects">
+			<img src="/images/0.jpg" alt="">
+		</a>
+  	</div>
+	<script type="text/javascript">
+		$('body').width( $(window).width());
+		$('body').height( $(window).height());
+
+		var imgUrl = $('body img').attr('src'),
+			image = new Image();
+
+		image.src = imgUrl;
+		image.onload = function(){ 
+			$('.img-wrapper').css({
+				width : image.width,
+				height : image.height,
+				marginLeft: - image.width / 2,
+				marginTop: - image.height / 2,
+			}).fadeIn();
+		}
+
+	</script>
+  </body>
+</html>
