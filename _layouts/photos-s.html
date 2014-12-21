@@ -1,8 +1,74 @@
 ---
 layout: page
 ---
-
+<!-- load js & css -->
+<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
 <style type="text/css"> 
 	.content{ padding-top: 20px;}
+	.grid { width: 1000px;}
+	.grid img{ float: left; margin: 0 10px 10px 0; max-width: 29%;  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px 0px;}
+	.grid img:hover { cursor: pointer; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px 0px;}
+	#imgbox { display: none; position: fixed; left: 0; top: 0; z-index: 1000;}
+	#imgbox .bg, #imgbox .bd { position: absolute; left: 0; top : 0; width: 100%; height: 100%;}
+	#imgbox .bg { background: rgba(0, 0, 0, 0.5);}
+	#imgbox .bd { z-index: 1001;}
+	#imgbox .img-wrapper { position: absolute; left: 50%; top: 50%; padding: 10px; background-color: #fff;}
 </style> 
-{{ content }}
+<div class="grid">
+	{{ content }}
+</div>
+<div id="imgbox">
+	<div class="bg"></div>
+	<div class="bd">
+		<div class="img-wrapper">
+			<img src="" alt="">
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$('#imgbox').width( $(window).width());
+	$('#imgbox').height( $(window).height());
+
+	$(window).on('resize', function(){
+		$('#imgbox').width( $(window).width());
+		$('#imgbox').height( $(window).height());
+	});
+
+	$('.grid img').on('click', function(){
+		var $imgBox = $('#imgbox'),
+			imgUrl = $(this).attr('src'),
+			image = new Image();
+	    image.src = imgUrl;
+		$imgBox.find('img').attr('src', imgUrl);
+
+		var AR = image.width / image.height,
+			width = 750,
+			height = 550,
+			percent = 1;
+		
+		if ( AR > 1) {
+			percent = Math.min(image.width, width) / image.width;
+		} else {
+			percent = Math.min(image.height, height) / image.height;
+		};
+
+		width = image.width * percent;
+		height = image.height * percent;
+
+		$imgBox.find('.img-wrapper').css({
+			width : width + 20,
+			height : height + 20,
+			marginLeft: - (width + 20) / 2,
+			marginTop: - (height + 20) / 2,
+		}).find('img').css({
+			width: width,
+			height: height
+		});
+
+		$imgBox.fadeIn();
+	})
+
+	$('#imgbox .cls, #imgbox .bd').on('click', function(){
+		$('#imgbox').fadeOut();
+	})
+</script>
