@@ -8,107 +8,24 @@ permalink: /sampleproject2/
 coverimg: "/images/0.jpg"
 ---
 
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
-<a href="{{site.baseurl}}/images/0.jpg">
-	<img 
-	  src="{{site.baseurl}}/images/0.jpg",
-	  data-big="{{site.baseurl}}/images/0.jpg"
-	  data-title="Sample Picture Title"
-	  data-description="Sample Picture Description."
-	>
-</a>
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)
+![0]({{site.baseurl}}/images/0.jpg)

@@ -3,18 +3,36 @@ layout: page
 ---
 <!-- load js -->
 <script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/galleria-1.4.2.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/galleria/galleria-1.4.2.js" | prepend: site.baseurl }}"></script>   
 <!-- load css -->
-<link rel="stylesheet" href="{{ "/css/picture-gallary.css" | prepend: site.baseurl }}"> 
+<link rel="stylesheet" href="{{ "/js/galleria/galleria.classic.css" | prepend: site.baseurl }}"> 
 <style type="text/css"> 
 	.content{ padding-top: 20px;}
+	#galleria { height: 600px; display: none;}
 </style> 
 <div id="galleria">
 	{{ content }}
 </div>
 <script>
+	imghtml = "";
+	// Prepare data
+	$('#galleria img').each(function(){
+		var src = $(this).attr('src'),
+			html = "";
+		html += '<a href="'+ src + '">';
+		html += '	<img ';
+		html += '	  src="'+ src + '"';
+		html += '	  data-big="'+ src + '"';
+		html += '	>';
+		html += '</a>';
+
+		imghtml += html;
+	})
+	
+	$('#galleria').html(imghtml).fadeIn();
+
 	// Load the classic theme
-    Galleria.loadTheme('{{ "/js/galleria.classic.min.js" | prepend: site.baseurl }}');
+    Galleria.loadTheme('/js/galleria/galleria.classic.min.js');
     // Initialize Galleria
     Galleria.run('#galleria');
 </script>
