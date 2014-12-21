@@ -1,6 +1,5 @@
 ---
 layout: empty
-title: Maoooooo
 permalink: /mao/
 ---
 
