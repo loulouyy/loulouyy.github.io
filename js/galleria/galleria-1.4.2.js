@@ -6435,8 +6435,8 @@ Galleria.Picture.prototype = {
             success: function() {
 
                 // calculate some cropping
-                var newWidth = ( width - options.margin * 2 ) / self.original.width,
-                    newHeight = ( height - options.margin * 2 ) / self.original.height,
+                var newWidth = Math.min( 600, ( width - options.margin * 2 )) / self.original.width,
+                    newHeight = Math.min( 600, ( height - options.margin * 2 )) / self.original.height,
                     min = M.min( newWidth, newHeight ),
                     max = M.max( newWidth, newHeight ),
                     cropMap = {
