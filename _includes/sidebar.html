@@ -1,0 +1,22 @@
+<div class="g-side">
+	<div class="hd u-row">
+		<a href="/"><b>SITENAME</b>YOURNAME</a>
+	</div>
+	<div class="bd u-row">
+		<a href="{{ "/projects" | prepend: site.baseurl }}" class="index">PROJECTS</a>
+		<ul class="projects">
+    		{% for post in site.posts %}
+      		<li>
+          		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      		</li>
+    		{% endfor %}
+		</ul>
+	</div>
+	<div class="ft u-row">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"><b>{{ page.title }}</b></a>
+          {% endif %}
+        {% endfor %}
+	</div>
+</div>
